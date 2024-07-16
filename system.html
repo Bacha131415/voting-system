@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Voting System</title>
+    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 class="title">Digital Voting System</h1>
+    <center>
+        <h1 class="input" id="input"></h1>
+        <div class="on-off">
+            <i class="fa-solid fa-plug " id="on"  onclick="on()"></i>
+            <i class="fa-solid fa-power-off" id="off" onclick="off()"></i>
+        </div>
+    </center>
+    <div class="buttons">
+        <h1 class="afg" id="afg" onclick="afg_count()">G.Afg</h1>
+        <h1 class="puk" id="puk" onclick="puk_count()">Pukhtoonistan</h1>
+        <h1 class="pak" id="pak" onclick="pak_count()">Pakistan</h1>
+    </div>
+    <center>
+        <button onclick="result()" id="result-button">result</button>
+    </center>
+
+
+
+    <script src="system.js"></script>
+</body>
+</html>

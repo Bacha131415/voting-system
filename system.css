@@ -1,0 +1,272 @@
+body{
+    background-color: black;
+}
+.title{
+    font-size: 75px;
+    color: tomato;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.input{
+    width: 90%;
+    height: 120px;
+    border-radius: 60px;
+    background-color: black;
+    color: black;
+    border: 2px solid white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.on-off{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 700px;
+}
+#on{
+    font-size: 60px;
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px 20px;
+    transition: all .4s ease;
+    border-radius: 10px;
+}
+#on:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid green;
+    color: white;
+}
+#off{
+    font-size: 60px;
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px 20px;
+    transition: all .4s ease;
+    border-radius: 10px;
+}
+#off:hover{
+    background-color: red;
+    cursor: pointer;
+    border: 2px solid red;
+    color: white;
+}
+button{
+    border-radius: 10px;
+    border: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.afg{
+    color: white;
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    user-select: none;
+}
+.afg:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid green;
+}
+.puk{
+    color: white;
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    user-select: none;
+}
+.puk:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid green;
+}
+.pak{
+    color: white;
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    user-select: none;
+}
+.pak:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid green;
+}
+#result-button{
+    margin: auto;
+    margin-top: 30px;
+    font-size: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    transition: all .5s ease;
+}
+#result-button:hover{
+    background-color: #014d01;
+}
+
+
+
+@media only screen and (max-width: 786px){
+    body{
+        background-color: black;
+    }
+    .title{
+        font-size: 25px;
+        color: tomato;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+    .input{
+        width: 90%;
+        height: 40px;
+        border-radius: 60px;
+        background-color: black;
+        color: black;
+        border: 2px solid white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+        
+    }
+    .on-off{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 100px;
+    }
+    #on{
+        font-size: 20px;
+        color: black;
+        border: 2px solid white;
+        background-color: white;
+        padding: 5px 20px;
+        transition: all .4s ease;
+        border-radius: 10px;
+    }
+    #on:hover{
+        background-color: green;
+        cursor: pointer;
+        border: 2px solid green;
+        color: white;
+    }
+    #off{
+        font-size: 20px;
+        color: black;
+        border: 2px solid white;
+        background-color: white;
+        padding: 5px 20px;
+        transition: all .4s ease;
+        border-radius: 10px;
+    }
+    #off:hover{
+        background-color: red;
+        cursor: pointer;
+        border: 2px solid red;
+        color: white;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .afg{
+        color: white;
+        background-color: transparent;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border: 2px solid white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: all .5s ease;
+        user-select: none;
+    }
+    .afg:hover{
+        background-color: green;
+        cursor: pointer;
+        border: 2px solid green;
+    }
+    .puk{
+        color: white;
+        background-color: transparent;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border: 2px solid white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: all .5s ease;
+        user-select: none;
+    }
+    .puk:hover{
+        background-color: green;
+        cursor: pointer;
+        border: 2px solid green;
+    }
+    .pak{
+        color: white;
+        background-color: transparent;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border: 2px solid white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: all .5s ease;
+        user-select: none;
+    }
+    .pak:hover{
+        background-color: green;
+        cursor: pointer;
+        border: 2px solid green;
+    }
+    #result-button{
+        margin: auto;
+        margin-top: 15px;
+        font-size: 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        transition: all .5s ease;
+    }
+    #result-button:hover{
+        background-color: #014d01;
+    }
+}
